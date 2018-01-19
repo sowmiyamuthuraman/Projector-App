@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ADD MOVIE</title>
+  <meta name="description" content="My Add Movie">
+  <meta charset="utf-8">
+  <link type="text/css" href="./css/reset.css"  rel="stylesheet">
+   <link type="text/css" href="./css/movie.css" rel="stylesheet">
+   <link type="text/css" href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <img src="./images/projector-logo.png" class="logo">
+    <nav>
+      <ul class="fright">
+        <li><a href="#" class="s1">HOME</a>
+      <a href="#" class="s1">ADD MOVIE</a></li>
+      </ul></nav>
+  </header>
+<div class="clearfix"></div>
+  <form action="sample-action" method="post" class="addmovieform">
+    <h1><b> ADD A MOVIE<b></h1>
+
+    <ul>
+      <li><label for="movie">Movie Name</label>
+    <input id="movie" type="text" name="movie" required/>
+  </li>
+      <li><label for="release">Release Year</label>
+        <input id="release" type="text" name="release"/>
+      </li>
+      <li>
+        <div class="divide1"><label for="language">Language</label>
+        <select name="language">
+          <option></option>
+          <option id="e">ENGLISH</option>
+          <option id="h">HINDI</option>
+        </select></div><div class="divide2">
+        <label for="rating">Rating</label>
+        <select name="rating">
+          <option></option>
+          <option id="5">5</option>
+          <option id="4">4</option>
+            <option id="3">3</option>
+          </select></div>
+        </li>
+        <li>
+        <label for="thumb">Thumbnail URL</label>
+        <input type="url" name="thumb"/>
+      </li>
+      <li>
+        <label for="plot">Plot</label>
+        <textarea rows="2" cols="20" name="plot">
+        </textarea>
+      </li>
+      <li>
+      <label for="poster">Poster URL</label>
+      <input type="url" name="poster"/>
+    </li>
+    <li>
+      <label for=cast>Cast</label>
+      <textarea rows="2" cols="20" name="cast">
+      </textarea>
+    </li>
+    <li>
+      <button name="save" value="save">SAVE</button>
+    </li>
+  </form>
+<footer>
+    <ul>
+      <a href="#"><img src="./images/facebook.png" class="ss"></a>
+    <a href="#"><img src="./images/instagram.png" class="ss"></a>
+    <a href="#"><img src="./images/twitter.png" class="ss"></a>
+
+        <img src="./images/projector-logo.png" class="logo1">
+
+</footer>

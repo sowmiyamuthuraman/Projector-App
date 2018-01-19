@@ -1,0 +1,87 @@
+.logo{
+  width:300px;
+  float:left;
+  display:inline;
+}
+.logo1{
+  float:right;
+  display:inline;
+  width:150px;
+}
+.fright{
+  float:right;
+
+}
+.ss{
+  width:30px;
+
+  display:inline;
+}
+.clearfix{
+  clear:both;
+}
+body{
+  font-family: "Lato",sans-serif;
+  background-color: #442D4B;
+  color:white;
+}
+header,footer{
+  padding:40px;
+  height:40px;
+}
+.s1{
+  color:#ffcb59;
+  display:inline;
+  text-decoration: none;
+  padding: 5px;
+}
+.addmovieform{
+  width:500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+}
+.addmovieform select{
+  display: inline;
+}
+.addmovieform h1{
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.addmovieform label,.addmovieform input{
+  display:block;
+}
+.addmovieform input,.addmovieform textarea,.addmovieform select{
+  width:100%;
+  background:#442D48;
+  border:1px solid white;
+  margin:7px 0 15px;
+  color:white;
+  padding:0  5px;
+  font-family: inherit;
+  font-size:19px;
+}
+.addmovieform input{
+  height:40px;
+}
+.divide1{
+  display:inline-block;
+  width:50%;
+  white-space: nowrap;
+  padding-left: 0px;
+
+
+}
+.divide2{
+display:inline-block;
+width:48%;
+white-space: nowrap;
+padding-left: 10px;
+}
+
+button{
+background-color:orange;
+margin: 0 auto;
+display:block;
+}
