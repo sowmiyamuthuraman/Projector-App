@@ -25,4 +25,16 @@ console.log(req.body);
     });
 
   });
+  exports.editMovie=function(req,res,next){
+  var db=dbService.database,
+  movie=req.body,
+  moviesCollection=db.collection("movies");
+console.log(req.body);
+  moviesCollection.insert(movie).then(function(edit_data){
+    return  res.json({
+      "isSuccess":true
+    });
+
+  });
+
 }
